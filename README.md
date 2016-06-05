@@ -10,12 +10,7 @@
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/shinytoastr)](http://www.r-pkg.org/pkg/shinytoastr)
 
 <h1 align="center">
-    <br>
-    <br>
     <img width="400" src="./inst/shinytoastr.png">
-    <br>
-    <br>
-    <br>
 </h1>
 
 ## Installation
@@ -73,4 +68,5 @@ server <- function(input, output, session) {
 
 ## License
 
-MIT © [Mango Solutions](https://github.com/mangothecat).
+MIT © John Papa, Tim Ferrell, Hans Fjällemark,
+[Mango Solutions](https://github.com/mangothecat).
