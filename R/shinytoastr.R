@@ -153,9 +153,9 @@ toastr_fun <- function(toast_type) {
 #'         error = function(e) {
 #'           toastr_error(title = "Database error", conditionMessage(e))
 #'         }
-#'      }
-#'    }
-#'  )
+#'       }
+#'     }
+#'   )
 #'
 #' @seealso \code{\link{useToastr}}
 #' @export

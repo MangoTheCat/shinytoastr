@@ -121,9 +121,9 @@ a database, and an error otherwise. \preformatted{  observeEvent(
         error = function(e) {
           toastr_error(title = "Database error", conditionMessage(e))
         }
-     }
-   }
- )
+      }
+    }
+  )
 }
 \examples{
 ## See above
