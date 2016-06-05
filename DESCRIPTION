@@ -1,0 +1,15 @@
+Package: shinytoastr
+Title: Notifications from Shiny
+Version: 2.1.1
+Author: John Papa, Tim Ferrell, Hans Fjällemark, Gábor Csárdi
+Maintainer: Gábor Csárdi <gcsardi@mango-solutions.com>
+Description: Browser notifications in shiny apps, using
+    toastr: <https://github.com/CodeSeven/toastr#readme>.
+License: MIT + file LICENSE
+LazyData: true
+URL: https://github.com/mangothecat/shinytoastr
+BugReports: https://github.com/mangothecat/shinytoastr/issues
+Imports:
+    shiny
+RoxygenNote: 5.0.1
+Encoding: UTF-8
