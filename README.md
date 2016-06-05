@@ -9,6 +9,15 @@
 [![](http://www.r-pkg.org/badges/version/shinytoastr)](http://www.r-pkg.org/pkg/shinytoastr)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/shinytoastr)](http://www.r-pkg.org/pkg/shinytoastr)
 
+<h1 align="center">
+    <br>
+    <br>
+    <img width="400" src="./inst/shinytoastr.png">
+    <br>
+    <br>
+    <br>
+</h1>
+
 ## Installation
 
 ```r
