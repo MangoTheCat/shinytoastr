@@ -11,7 +11,7 @@ toastr_success(message, title = "", closeButton = FALSE,
   newestOnTop = FALSE, progressBar = FALSE, position = c("top-right",
   "top-center", "top-left", "top-full-width", "bottom-right", "bottom-center",
   "bottom-left", "bottom-full-width"), preventDuplicates = FALSE,
-  showDuration = 300, hideDuration = 1000, timeout = 5000,
+  showDuration = 300, hideDuration = 1000, timeOut = 5000,
   extendedTimeOut = 1000, showEasing = c("swing", "linear"),
   hideEasing = c("swing", "linear"), showMethod = c("fadeIn", "slideDown",
   "show"), hideMethod = c("fadeOut", "hide"))
@@ -20,7 +20,7 @@ toastr_info(message, title = "", closeButton = FALSE, newestOnTop = FALSE,
   progressBar = FALSE, position = c("top-right", "top-center", "top-left",
   "top-full-width", "bottom-right", "bottom-center", "bottom-left",
   "bottom-full-width"), preventDuplicates = FALSE, showDuration = 300,
-  hideDuration = 1000, timeout = 5000, extendedTimeOut = 1000,
+  hideDuration = 1000, timeOut = 5000, extendedTimeOut = 1000,
   showEasing = c("swing", "linear"), hideEasing = c("swing", "linear"),
   showMethod = c("fadeIn", "slideDown", "show"), hideMethod = c("fadeOut",
   "hide"))
@@ -29,7 +29,7 @@ toastr_warning(message, title = "", closeButton = FALSE,
   newestOnTop = FALSE, progressBar = FALSE, position = c("top-right",
   "top-center", "top-left", "top-full-width", "bottom-right", "bottom-center",
   "bottom-left", "bottom-full-width"), preventDuplicates = FALSE,
-  showDuration = 300, hideDuration = 1000, timeout = 5000,
+  showDuration = 300, hideDuration = 1000, timeOut = 5000,
   extendedTimeOut = 1000, showEasing = c("swing", "linear"),
   hideEasing = c("swing", "linear"), showMethod = c("fadeIn", "slideDown",
   "show"), hideMethod = c("fadeOut", "hide"))
@@ -38,7 +38,7 @@ toastr_error(message, title = "", closeButton = FALSE,
   newestOnTop = FALSE, progressBar = FALSE, position = c("top-right",
   "top-center", "top-left", "top-full-width", "bottom-right", "bottom-center",
   "bottom-left", "bottom-full-width"), preventDuplicates = FALSE,
-  showDuration = 300, hideDuration = 1000, timeout = 5000,
+  showDuration = 300, hideDuration = 1000, timeOut = 5000,
   extendedTimeOut = 1000, showEasing = c("swing", "linear"),
   hideEasing = c("swing", "linear"), showMethod = c("fadeIn", "slideDown",
   "show"), hideMethod = c("fadeOut", "hide"))
@@ -71,7 +71,7 @@ in milliseconds.}
 \item{hideDuration}{How long the final hide transition should take,
 in milliseconds.}
 
-\item{timeout}{How long the notification should be kept on the screen,
+\item{timeOut}{How long the notification should be kept on the screen,
 in milliseconds. Set it to zero to keep it on the screen until it is
 clicked. Note that if the mouse cursor is over the notification, then
 it is kept on the screen for \code{extendedTimeOut} milliseconds,

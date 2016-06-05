@@ -54,7 +54,7 @@ toastr_fun <- function(toast_type) {
     preventDuplicates = FALSE,
     showDuration = 300,
     hideDuration = 1000,
-    timeout = 5000,
+    timeOut = 5000,
     extendedTimeOut = 1000,
     showEasing = c("swing", "linear"),
     hideEasing = c("swing", "linear"),
@@ -70,7 +70,7 @@ toastr_fun <- function(toast_type) {
       preventDuplicates = isTRUE(preventDuplicates),
       showDuration = as_count(showDuration),
       hideDuration = as_count(hideDuration),
-      timeout = as_count(timeout),
+      timeOut = as_count(timeOut),
       extendedTimeOut = as_count(extendedTimeOut),
       showEasing = match.arg(showEasing),
       hideEasing = match.arg(hideEasing),
@@ -120,7 +120,7 @@ toastr_fun <- function(toast_type) {
 #'   in milliseconds.
 #' @param hideDuration How long the final hide transition should take,
 #'   in milliseconds.
-#' @param timeout How long the notification should be kept on the screen,
+#' @param timeOut How long the notification should be kept on the screen,
 #'   in milliseconds. Set it to zero to keep it on the screen until it is
 #'   clicked. Note that if the mouse cursor is over the notification, then
 #'   it is kept on the screen for \code{extendedTimeOut} milliseconds,
