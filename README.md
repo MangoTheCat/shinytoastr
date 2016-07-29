@@ -60,7 +60,7 @@ server <- function(input, output, session) {
         error = function(e) {
           toastr_error(title = "Database error", conditionMessage(e))
         }
-      }
+      )
     }
   )
 }
