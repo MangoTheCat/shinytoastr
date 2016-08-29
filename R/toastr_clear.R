@@ -3,7 +3,7 @@
 #' @param with_animation If \code{FALSE}, toasts are destroyed instantly. Else they disappear according to their \code{hideMethod}.
 #'
 #' @export
-clear_toasts <- function(with_animation = FALSE) {
+toastr_clear_all <- function(with_animation = FALSE) {
   session <- getSession()
   session$sendCustomMessage(
     type = 'toastr_clear',
