@@ -9,3 +9,15 @@ Shiny.addCustomMessageHandler(
 	);
     }
 );
+
+Shiny.addCustomMessageHandler(
+    "toastr_clear",
+    function(message) {
+	if (message.with_animation) {
+	  toastr.clear();
+	} else {
+	  toastr.remove();
+	}
+    }
+);
+
